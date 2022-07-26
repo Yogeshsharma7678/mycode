@@ -3,7 +3,7 @@ class Series {
    
   for(int i=1;i<=121;i++){
     
-   if(i==0){
+   if(i==1){
    System.out.println(i);
    }
    else{
