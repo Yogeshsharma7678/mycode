@@ -1,3 +1,12 @@
+/*program to print a pattern like:
+
+*
+**
+***
+****
+*****
+
+*/
 import java.util.*;
 
 class pattern {
@@ -17,7 +26,9 @@ for(int j=1; j<=i; j++){
 System.out.print("*");
 
    }
-System.out.println();
+System.out.println();   /*for next line after 
+                          completing the inner loop */
   }
+sc.close();   //for close the scanner object
  } 
 }
