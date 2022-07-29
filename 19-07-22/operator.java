@@ -1,4 +1,3 @@
-/* Use of conditional Operator */
 class Conditional {
     
      public static void main(String args[]){
@@ -7,7 +6,7 @@ class Conditional {
      
      byte X=(a>b)?(a>c?a:c):(b>c?b:c);
       
-     byte Y=(a>b && b>c)?(b>d?b:d):(a>c?a:c):(c>d?c:d);//compare using conditional operator
+     byte Y=(a>b && b>c)?(b>d?b:d):(a>c?a:c):(c>d?c:d);
      
      System.out.println(X);
    }

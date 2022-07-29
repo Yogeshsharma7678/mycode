@@ -1,6 +1,6 @@
 /*program to illustrate Movietheatre managment System
-  we can add movies in this program
-  by giving some details about movie
+  we can add books in this program
+  by giving some details about bookName
 */
 
 import java.util.*;
@@ -10,29 +10,29 @@ class movieTheatre {
   public static void main(String[]args)
    {
     //create a scanner object for taking details from user
-        Scanner sc=new Scanner(System.in);
+    Scanner sc=new Scanner(System.in);
     
-        System.out.println("Enter name of movie.....");
+    System.out.println("Enter name of movie.....");
     
-        String MovieName = sc.next();      //to take movie name from user
+        String MovieName = sc.next();      //to take book number from user
     
 	System.out.println("Enter starting time of movie.....");
       
-        float MovieStart = sc.nextFloat();    //to ask movie start time from user
+        float MovieStart = sc.nextFloat();
 	
 	System.out.println("Enter end time of movie.....");
       
-        float MovieEnd = sc.nextFloat();    //to ask movie end time from user
+        float MovieEnd = sc.nextFloat();    //to ask movie name from user
 
     System.out.println("Enter price of movie.....");
 
-    int MoviePrice=sc.nextInt();     //to ask movie price from user
+    int MoviePrice=sc.nextInt();     //to ask book price from user
 
-    movie m1=new movie();   //creating object to call movie class
+    movie m1=new movie();   //creating object to call bookshell class
 
-	m1.setMovie(MovieName,MovieStart,MovieEnd,MoviePrice);  //calling set method using m1
+	m1.setMovie(MovieName,MovieStart,MovieEnd,MoviePrice);  //calling set method using b1
 
-    m1.getMovie();	            //calling get method using m1
+    m1.getMovie();	            //calling get method using b1
    
     sc.close();       //closing of scanner object
 	
@@ -53,7 +53,7 @@ class movieTheatre {
    int  moviePrice;
   
   public void setMovie(String mName, float mStart, float mEnd, int mPrice)        /*creating method & passing parameters to 
-                                                                   input details and add movies*/
+                                                                   input details  and add book*/
                                                                     
   {
   

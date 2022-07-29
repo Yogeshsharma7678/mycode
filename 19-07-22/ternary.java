@@ -1,4 +1,4 @@
-//use of ternary operator 
+ 
 import java.io.*;
  
 class Ternary {

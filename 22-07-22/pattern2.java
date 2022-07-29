@@ -1,11 +1,3 @@
-/*program to print reverse of right 
-  angled triangle
-****
-***
-**
-* 
-
-*/
 import java.util.*;
 
 class pattern2 {
@@ -27,7 +19,5 @@ System.out.print("*");
    }
 System.out.println();
   }
-
-sc.close();
  } 
 }

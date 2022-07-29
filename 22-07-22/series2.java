@@ -19,8 +19,7 @@ Scanner sc= new Scanner(System.in);
 
 System.out.println("----enter no of lines----");
 
-int n = sc.nextInt(); /*to take input from user
-                         to print the series till number*/
+int n = sc.nextInt();
 
 for(int i=1; i<=n; i++){
 
@@ -30,6 +29,5 @@ System.out.println(+i+j);
 
    }
   }
-  sc.close();    //closing of Scanner Object
  } 
 }

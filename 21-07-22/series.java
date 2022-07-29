@@ -1,17 +1,3 @@
-/*program to print series:
-11
-21
-31
-41
-51
-61
-71
-81
-91
-101
-111
-121
-*/
 class Series {
   public static void main(String[]args){
    
